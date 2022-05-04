@@ -71,7 +71,7 @@ const deleteTravel = (req, res, next) => {
     [id_travel],
     (err, results) => {
       if (err) throw err;
-      res.json("Travel deleted");
+      res.json("Travel deleted!");
     }
   );
 };
